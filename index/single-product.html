@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Product</title>
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="../css/single-product.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- Icon title favicon -->
+    <link
+      rel="icon"
+      href="../images/logo/logofavicon.png"
+      type="image/gif"
+      sizes="20x20"
+    />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/ba4cc9ab8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/main.js"></script>
+    <!-- Canvas -->
+    <script src="../js/canvas.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Begin Top-Header -->
+      <div class="top-header">
+        <p class="title-air">
+          <i class="fa-solid fa-plane-departure"></i>Free Shipping On All Orders
+          Over $100
+        </p>
+
+        <p class="title-phone">
+          <i class="fa-solid fa-phone"></i>Support Anytime
+          <a href="#phone" class="phone">123-456-7890</a>
+        </p>
+        <p class="title-login">
+          <i class="fa-solid fa-user"></i>
+          <a class="login" href="../index/login.html">Login</a>
+        </p>
+      </div>
+      <!-- End Top-Header -->
+
+      <!-- Begin Header -->
+
+      <!-- End Header -->
+      <div class="cut-header">
+        <style>
+          .cut-header {
+            height: 1px;
+            background-color: #312f2f;
+          }
+        </style>
+      </div>
+      <!-- Begin Sub-Header -->
+      <div class="sub-header">
+        <div class="header">
+          <img src="../images/logo_dark.png" alt="" class="logo" />
+        </div>
+        <!-- Menu Bar -->
+        <label for="menu-mobile-input" class="menu_bar_btn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <input
+          hidden
+          type="checkbox"
+          name=""
+          class="menu-input"
+          id="menu-mobile-input"
+        />
+
+        <label for="menu-mobile-input" class="menu_overlay"> </label>
+        <!-- Menu Mobile -->
+        <ul class="menu-mobile">
+          <label for="menu-mobile-input" class="menu-mobile-close">
+            <i class="fa-solid fa-square-xmark"></i>
+          </label>
+          <li class="menu_mobile_item">
+            <a href="" class="menu_mobile_link"
+              >Home<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Home1</a></li>
+                  <li><a href="">Home2</a></li>
+                  <li><a href="">Home3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_mobile_item">
+            <a href="" class="menu_mobile_link"
+              >Features<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Tools</a></li>
+                  <li><a href="">Pages</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Shop</a></li>
+                  <li><a href="">Color Schemes</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_mobile_item">
+            <a href="" class="menu_mobile_link"
+              >Band & Orchestra<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Bags and Cases</a></li>
+                  <li><a href="">Instruments</a></li>
+                  <li><a href="">Mouthpieces</a></li>
+                  <li><a href="">Orchestral String</a></li>
+                  <li><a href="">Upright Basses</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_mobile_item">
+            <a href="" class="menu_mobile_link"
+              >Recording<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Audio Interfaces</a></li>
+                  <li><a href="">Audio Workstations</a></li>
+                  <li><a href="">Midi Controller</a></li>
+                  <li><a href="">Midi Interfaces</a></li>
+                  <li><a href="">Software</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_mobile_item">
+            <a href="" class="menu_mobile_link"
+              >DJ & Karaoke<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Controller</a></li>
+                  <li><a href="">Headphones</a></li>
+                  <li><a href="">Mixers</a></li>
+                  <li><a href="">Turntables</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- Menu PC -->
+        <ul class="menu">
+          <li class="menu_item">
+            <a href="../index/index.html" class="menu_link"
+              >Home<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Home1</a></li>
+                  <li><a href="">Home2</a></li>
+                  <li><a href="">Home3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_item">
+            <a href="" class="menu_link active-button"
+              >Features<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Tools</a></li>
+                  <li><a href="">Pages</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="../index/shop.html">Shop</a></li>
+                  <li><a href="">Color Schemes</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_item">
+            <a href="" class="menu_link"
+              >Band & Orchestra<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Bags and Cases</a></li>
+                  <li><a href="">Instruments</a></li>
+                  <li><a href="">Mouthpieces</a></li>
+                  <li><a href="">Orchestral String</a></li>
+                  <li><a href="">Upright Basses</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_item">
+            <a href="" class="menu_link"
+              >Recording<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Audio Interfaces</a></li>
+                  <li><a href="">Audio Workstations</a></li>
+                  <li><a href="">Midi Controller</a></li>
+                  <li><a href="">Midi Interfaces</a></li>
+                  <li><a href="">Software</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_item">
+            <a href="" class="menu_link"
+              >DJ & Karaoke<i class="fa-solid fa-angle-down"></i
+            ></a>
+            <div class="menu_child">
+              <div class="menu_child_item">
+                <ul class="menu_child_list">
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Controller</a></li>
+                  <li><a href="">Headphones</a></li>
+                  <li><a href="">Mixers</a></li>
+                  <li><a href="">Turntables</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="menu_item"><a href="" class="menu_link">Sale</a></li>
+          <div class="icon">
+            <li class="menu_icon">
+              <a href="" class="menu_link"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+          </div>
+          <div class="icon">
+            <li class="menu_icon">
+              <div class="search-box">
+                <div class="search-txt">
+                  <input type="text" placeholder="Search..." />
+                </div>
+                <div class="search-btn">
+                  <a href="" class="menu_link"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <!-- End Sub-Header -->
+    </header>
+    <!-- Single-Product -->
+    <div class="single-product-container">
+      <div class="sg-product-top">
+        <div class="title-top">
+          MicroMall(TM) Paint Gold Drop BHercules DS513BB 2 Trumpet
+        </div>
+        <div class="menu-top">
+          <a href="#">Home / </a>
+          <a href="#">Shop / </a>
+          <a href="#">Band & Orchestra / </a>
+          <p>Barrington BR FR401 Double French Horn</p>
+        </div>
+      </div>
+
+      <div class="single-product-content">
+        <div class="sg-pd-content-left">
+          <div class="img-product-content">
+            <a href="#"><img src="../images/goods/good/good11.jpg" alt="" /></a>
+            <div class="name-in">Buy Now</div>
+            <div class="search-content">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="sub-img-product-content">
+            <a href=""><img src="../images/goods/good/good10.jpg" alt="" /></a>
+            <a href=""><img src="../images/goods/good/good1.jpg" alt="" /></a>
+            <a href=""><img src="../images/goods/good/good12.jpg" alt="" /></a>
+            <a href=""><img src="../images/goods/good/good11.jpg" alt="" /></a>
+          </div>
+        </div>
+        <div class="sg-pd-content-right">
+          <div class="name-product-content">
+            <h3>Barrington BR FR401 Double French Horn</h3>
+          </div>
+          <div class="price-product-content">$280.00 – $350.75</div>
+          <div class="info">
+            Nullam tincidunt tempus ligula, a dapibus massa ullamcorper et.
+            Aliquam facilisis, massa in malesuada vehicula, odio mauris gravida
+            sem, molestie imperdiet metus urna sit amet ex. Praesent egestas,
+            nisi vel finibus finibus, dui nulla aliquam metus, sit amet lacinia
+            diam justo sed mauris. Sed efficitur, eros vitae ultricies bibendum,
+            eros nibh pretium massa, ut consequat nisl felis eu libero.a
+          </div>
+          <div class="choose-color-product">
+            <div class="name-color">Color</div>
+            <select name="" id="choose-color">
+              <option value="">Choose an option</option>
+              <option value="">Red</option>
+              <option value="">Blue</option>
+              <option value="">Yellow</option>
+            </select>
+          </div>
+         
+          <div class="quantity">
+            <input value="1" step="1" min="1" class="input-quantity" type="number" />
+            <div class="name-quantity">
+              <h5>Add To Cart</h5>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="signature-product-content">
+              Signature 
+            </div>
+            <div class="col-md-4 col-md-offset-4 " id="canvas-container">
+              <canvas id="canvas"></canvas>
+            </div>
+          </div>
+          <hr />
+          <div class="local">
+            <div class="sku">SKU: N/A</div>
+            <div class="categories">
+              Categories: Band & Orchestra, Mouthpieces
+            </div>
+            <div class="tag">Tags: concept, creative</div>
+            <div class="product">Product ID: 1053</div>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+      <div class="info-content-container">
+        <div class="menu-info-content">
+          <a href="#">Description</a>
+          <a href="#">Additional information</a>
+          <a href="#">Reviews (0)</a>
+        </div>
+
+        <div class="info-description">
+          <h4 class="name-description">Description</h4>
+          <p>
+            Fusce nunc dolor, pretium luctus elit at, interdum sollicitudin
+            lectus. Quisque finibus consequat molestie. Aenean cursus lorem eu
+            fringilla euismod. Pellentesque ullamcorper tempus nisl at
+            sollicitudin. Ut ut maximus lectus, ut condimentum augue. Curabitur
+            non tortor neque. Donec euismod diam sit amet pretium molestie. Sed
+            quis pellentesque velit, vitae rhoncus dolor. Aliquam erat volutpat.
+            Aenean malesuada, risus sed lobortis iaculis, massa erat tristique
+            purus, eu suscipit magna ipsum eu elit. Ut eu orci eget est
+            vestibulum pretium quis ultrices eros.
+          </p>
+          <br />
+          <p>
+            Mauris non rhoncus mauris, ut porta nunc. Nullam tincidunt tempus
+            ligula, a dapibus massa ullamcorper et. Aliquam facilisis, massa in
+            malesuada vehicula, odio mauris gravida sem, molestie imperdiet
+            metus urna sit amet ex. Praesent egestas, nisi vel finibus finibus,
+            dui nulla aliquam metus, sit amet lacinia diam justo sed mauris. Sed
+            efficitur, eros vitae ultricies bibendum, eros nibh pretium massa,
+            ut consequat nisl felis eu libero. Aenean sit amet convallis nisl.
+            Vestibulum sollicitudin nec sem sit amet aliquam. Integer rutrum vel
+            neque nec porttitor. Integer malesuada at massa at vulputate. Duis
+            in nunc molestie, vulputate erat a, interdum tellus. Vestibulum eget
+            nisl ullamcorper, mattis nisi sed, mollis nibh. Maecenas semper,
+            erat a porttitor rutrum, metus nulla accumsan ligula, nec faucibus
+            lorem risus ac enim.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End-Single-Product -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container-footer">
+        <div class="info-footer">
+          <div class="menu-footer">
+            <a href="" class="link-footer">Home</a
+            ><a href="" class="link-footer">About Us</a
+            ><a href="" class="link-footer">Our Services</a
+            ><a href="../index/shop.html" class="link-footer">Shop</a
+            ><a href="" class="link-footer">News</a
+            ><a href="../index/contact.html" class="link-footer">Contacts</a>
+          </div>
+          <div class="sub-footer">
+            <a href="" class="themerex">ThemeREX</a> - © 2019. All Rights
+            Reserved.
+          </div>
+        </div>
+        <div class="social-footer">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-behance-square"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+  </body>
+</html>
