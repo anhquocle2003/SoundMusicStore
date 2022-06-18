@@ -1,17 +1,23 @@
 // LocalStorage
 
 function checkLogin() {
-  let username, password;
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
 
-  username = document.getElementById("username").value;
-  password = document.getElementById("password").value;
+  localStorage.setItem("username", username);
+  localStorage.setItem("password", password);
 
-  if (username == localStorage.getItem("usernameLogin") && password == localStorage.getItem("passwordLogin")) {
+  
+
+  if (username == "admin" && password == "admin") {
     window.location.href = "index.html";
   } else {
-    alert("Login Failed");
+    alert("Username or Password is incorrect");
   }
   
+  
+
+
 }
 
 function saveAccount() {
@@ -22,6 +28,4 @@ function saveAccount() {
 
   localStorage.setItem("usernameLogin", username);
   localStorage.setItem("passwordLogin", password);
-
 }
-

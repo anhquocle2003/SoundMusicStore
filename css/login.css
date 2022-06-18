@@ -152,4 +152,13 @@ form .txt-filed {
 .hidden {
   display: none !important;
 }
-/*  */
+/* Clock Canvas */
+.container-canvas{
+  display: flex;
+
+  
+}
+#canvas{
+  margin-top:32%;
+  margin-left: 80%;
+}

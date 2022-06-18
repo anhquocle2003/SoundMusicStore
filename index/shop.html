@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../css/shop.css" />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/responsive.css">
     <!-- Icon title favicon -->
     <link
       rel="icon"
@@ -57,7 +58,7 @@
       <!-- Begin Sub-Header -->
       <div class="sub-header">
         <div class="header">
-          <img src="../images/logo_dark.png" alt="" class="logo" />
+          <img src="../images/logo/logo_dark.png" alt="" class="logo" />
         </div>
         <!-- Menu Bar -->
         <label for="menu-mobile-input" class="menu_bar_btn">
@@ -94,7 +95,7 @@
           </li>
 
           <li class="menu_mobile_item">
-            <a href="" class="menu_mobile_link"
+            <a href="#" class="menu_mobile_link"
               >Features<i class="fa-solid fa-angle-down"></i
             ></a>
             <div class="menu_child">
@@ -102,7 +103,7 @@
                 <ul class="menu_child_list">
                   <li><a href="">Tools</a></li>
                   <li><a href="">Pages</a></li>
-                  <li><a href="">Blog</a></li>
+                  <li><a href="../index/contact.html">Contact</a></li>
                   <li><a href="">Shop</a></li>
                   <li><a href="">Color Schemes</a></li>
                 </ul>
@@ -249,9 +250,16 @@
           <li class="menu_item"><a href="" class="menu_link">Sale</a></li>
           <div class="icon">
             <li class="menu_icon">
-              <a href="" class="menu_link"
-                ><i class="fa-solid fa-cart-shopping"></i
-              ></a>
+              <div class="header-cart">
+                <div class="header-cart-wrap">
+
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <div class="header-cart-list header-cart-list_no-cart ">
+                    <img src="../images/no-cart.png" alt="" class="header-cart-no-cart-img">
+                    <p class="header-cart-no-cart-text">No items in cart</p>
+                  </div>
+                </div>
+              </div>
             </li>
           </div>
           <div class="icon">
@@ -813,6 +821,9 @@
             </div>
           </div>
         </div>
+        <div class="container-canvas">
+          <canvas id="canvas"></canvas>
+        </div>
       </div>
     </div>
     <!-- End Shop -->
@@ -844,4 +855,5 @@
     </div>
     <!-- End Footer -->
   </body>
+  <script src="../js/canvas.js"></script>
 </html>
