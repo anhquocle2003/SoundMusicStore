@@ -1,0 +1,254 @@
+/* PC: width > 1020 */
+@media (min-width: 1020px) {
+}
+
+/* Mobile: width < 740px */
+
+@media only screen and (max-width: 46.1875em) {
+  .content {
+    display: grid;
+    grid-template-columns: auto;
+  }
+/* Sale */
+  
+  .sale {
+    display: flex;
+    flex-direction: column;
+    padding:0
+  }
+  .sale-item .img-sale {
+    margin:5%;
+  }
+  .sale-item .img-sale img {
+    max-width: 100%;
+  }
+  .info-sale{
+    margin: -3% auto;
+  }
+  .title-sale{
+    font-size: 130%;
+  }
+  .sub-title-sale{
+    font-size: 100%;
+  }
+  .goods {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-header {
+    display: none;
+  }
+  .workshop {
+    display: none;
+  }
+  /* Footer */
+  .footer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-footer{
+    flex-direction: column;
+  }
+
+  .menu-footer a{
+    font-size: 110%;
+    color: #cb1a1e;
+    font-weight: 600;
+  }
+
+  
+  /* Slider */
+  .slider-next,.slider-prev{
+    display: none;
+  }
+ 
+  .slider-item img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text-content .text-heading{
+    font-size: 200%;
+  }
+  .text-content .text-subheading{
+    font-size: 100%;
+  }
+  .text-content{
+    font-size: 100%;
+  }
+  /* Seller */
+  .seller{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .goods{
+    padding: 5%;
+    max-width: 100%;
+
+  }
+
+  .good-item{
+    max-width: 100%;
+  }
+  /* Brand */
+  .container-brand{
+    margin: 0;
+    padding: 50px;
+    max-width: 100%;
+  }
+  
+  .brand-slider img{
+    
+    max-width: 100%;
+  }
+  /* Shop */
+  .container-shop {
+    display: flex;
+    flex-direction: column;
+  }
+  .shop-container-left {
+    flex-direction: column;
+  }
+  .container-showing {
+    flex-direction: column;
+  }
+  .shop-goods {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .shop-good-item {
+    max-width: 100%;
+  }
+  .page-current {
+    margin: 30px 0;
+  }
+  .pagination {
+    max-width: 100%;
+  }
+  .shop-container-left {
+    margin: 0;
+    flex: 1;
+  }
+  /* Single Product */
+  .single-product-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .sg-product-top {
+
+    padding: 10px;
+    flex-direction: column;
+  }
+  .title-top {
+    font-size: 13px;
+  }
+  .sg-product-top .menu-top a,
+  p {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .single-product-content{
+    flex-direction: column;
+    padding: 0 50px 0;
+  }
+  .info-content-container{
+    padding: 0 50px 0;
+
+  }
+  .sg-pd-content-left{
+    margin: 0;
+  }
+  .menu-info-content{
+    max-width: 80%;
+  }
+
+
+  /* Contact */
+  @media only screen and (max-width: 46.1875em) {
+    .wrapper-contact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .map-location {
+      padding: 0;
+      margin: 0;
+    }
+    .map-location button {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 1311px) {
+  .top-header {
+    display: none;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .top-header {
+    display: none;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .goods {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .sale {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .sale-item .img-sale img {
+    max-width: 300px;
+    height: auto;
+  }
+  .title-sale {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 8%;
+  }
+
+  .workshop {
+    display: none;
+  }
+  .container-footer {
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .item-brand img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu_bar_btn {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+}
