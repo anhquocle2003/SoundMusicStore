@@ -228,9 +228,7 @@
     }
     .input-box button{
       display: flex;
-      width: 100%;
-      display: block;margin: 0 auto;
-      font-size: 90%;
+      max-width: 50%;
     }
   }
 

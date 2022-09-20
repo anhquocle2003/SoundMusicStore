@@ -222,16 +222,6 @@
       max-width: 100%;
       margin-bottom: 20px;
     }
-    .col-12{
-      padding: 0;
-      margin: 2%;
-    }
-    .input-box button{
-      display: flex;
-      width: 100%;
-      display: block;margin: 0 auto;
-      font-size: 90%;
-    }
   }
 
 

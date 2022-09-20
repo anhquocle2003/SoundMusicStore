@@ -53,7 +53,7 @@
   }
 
   .container-footer{
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .menu-footer{
     display: flex;
@@ -64,6 +64,7 @@
     transform: translateX(-50%);
   }
   .menu-footer a{
+    font-size: 105%;
     color: aliceblue;
     font-weight: 600;
     margin: 0 5%;
@@ -72,20 +73,10 @@
   }
 
   .sub-footer a{
+    font-size: 102%;
     font-weight: 500;
-    color: #cb1a1e;
-
-  }
-  .social-footer{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 30% 0 ;
   }
 
-  .social-footer i{
-    margin: 0;
-  }
-  
   /* Back-To-Top */
   .back-to-top{
     display: none;
@@ -206,8 +197,6 @@
     .wrapper-contact {
       display: flex;
       flex-direction: column;
-      padding: 0;
-      margin: 0;
     }
 
     .contact-container {
@@ -222,23 +211,13 @@
       max-width: 100%;
       margin-bottom: 20px;
     }
-    .col-12{
-      padding: 0;
-      margin: 2%;
-    }
-    .input-box button{
-      display: flex;
-      width: 100%;
-      display: block;margin: 0 auto;
-      font-size: 90%;
-    }
   }
 
 
   /* SHOP */
   .container-shop{
     padding: 0;
-    margin:5%;
+    margin:0 5% 0 5%;
   }
   .container-canvas{
     display: none;
